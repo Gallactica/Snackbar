@@ -1,4 +1,5 @@
 # Snackbar
+![preview](preview.png)
 Уведомления
 ### Подключение
 ```html
