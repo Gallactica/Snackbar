@@ -1,0 +1,45 @@
+.snackbar {
+    font-size: 13px;
+    padding: 10px;
+    color: #fafafa;
+    background-color: #141414;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 10px 0px #0003;
+    position: absolute;
+    user-select: none;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .8s, bottom .8s, top .8s;
+    width: 240px;
+    left: calc(50% - 120px);
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+.snackbar.light {
+    color: #141414;
+    background-color: #fafafa;
+}
+
+.snackbar.left {
+    left: 20px;
+}
+
+.snackbar.right {
+    left: calc(100% - 20px - 240px);
+}
+
+.snackbar.top {
+    top: 0px;
+}
+
+.snackbar.view {
+    bottom: 20px;
+    opacity: 1;
+}
+
+.snackbar.top.view {
+    top: 20px;
+    bottom: unset;
+    opacity: 1;
+}
